@@ -2,13 +2,13 @@
 
 # === Configurable Variables ===
 SOURCE_DIR="/home/data-dir"
-DEST_IP="103.105.251.130"
+DEST_IP="your destination server ip"
 DEST_DIR="/home/backup-dir"
-PORT=7869
+PORT=port_number
 DATE=$(date +"%Y-%m-%d_%H-%M")
 BACKUP_NAME="backup_$DATE.tar.gz"
 ENCRYPTED_NAME="$BACKUP_NAME.enc"
-ENCRYPTION_PASSWORD="Zxcvbnm@12323"
+ENCRYPTION_PASSWORD="desired_password"
 
 # === Create and Encrypt the Backup ===
 echo "[+] Creating and encrypting backup..."
