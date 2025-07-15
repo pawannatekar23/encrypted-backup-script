@@ -1,0 +1,2 @@
+0 17 * * * /bin/bash /path/to/backup.sh
+
